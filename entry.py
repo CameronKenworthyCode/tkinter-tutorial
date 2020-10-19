@@ -5,7 +5,7 @@ root = Tk()
 
 e = Entry(root)
 e.pack()
-e.insert("Enter Your Name: ")
+
 
 def myClick():
     myLabel = Label(root, text=f"Hello {e.get()}")
